@@ -219,8 +219,8 @@
 #endif
 #include <signal.h>
 #include <sys/stat.h>
-#include <syscall.h>
 #include <unistd.h>
+#include <sys/syscall.h>
 #ifndef _GNU_SOURCE
 #define _GNU_SOURCE
 #include <dlfcn.h>
